@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="Css/style.css" />
+    <title>Golobe Travel Center</title>
+  </head>
+  <body>
+    <!-- !header -->
+    <!--todo make it responsive and solve image background proplem-->
+    <header>
+      <section>
+        <div class="container-fluid headerdiv my-4">
+          <div class="mx-auto d-flex justify-content-between p-4 navone">
+            <div class="d-flex justify-content-between smallimages">
+              <div class="pe-3">
+                <img src="assets/airplane.svg" alt="airplane" /> Find Flight
+              </div>
+              <div class="ps-3">
+                <img src="assets/ion_bed.svg" alt="airplane" /> Fing Stays
+              </div>
+            </div>
+
+            <div class="">
+              <img src="assets/Logo.png" alt="logo" />
+            </div>
+
+            <div>
+              <div class="">
+                <button class="btn border-0 btn-outline text-white">
+                  Login
+                </button>
+
+                <button class="btn bg-white signup">Sign Up</button>
+              </div>
+            </div>
+          </div>
+          <div class="title d-flex flex-column align-items-center p-0">
+            <div class="">
+              <p class="text1">Helping Others</p>
+            </div>
+            <div class="">
+              <p class="text2">Live & Travel</p>
+            </div>
+            <div class="">
+              <p class="text3">Special offers to suit your plan</p>
+            </div>
+          </div>
+          <div class="whitebar position-relative">
+            <div class="container-fluid barcon d-flex flex-column">
+              <div class="bar1 d-flex align-items-center">
+                <img src="assets/airplane2.svg" alt="airplane" /> Flights
+                <div class="vl"></div>
+                <img src="assets/ion_bed2.svg" alt="" /> Stays
+              </div>
+
+              <div
+                class="bar2 d-flex align-items-center justify-content-between"
+              >
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInputGroup1"
+                    placeholder="Username"
+                  />
+                  <label for="floatingInputGroup1">From - To</label>
+                </div>
+                <div class="form-floating">
+                  <select class="form-select" id="floatingSelectGrid">
+                    <option selected>Return</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <label for="floatingSelectGrid">Trip</label>
+                </div>
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInputGroup1"
+                    placeholder="Username"
+                  />
+                  <label for="floatingInputGroup1">Depart - Return</label>
+                </div>
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInputGroup1"
+                    placeholder="Username"
+                  />
+                  <label for="floatingInputGroup1">Passenger - Class</label>
+                </div>
+              </div>
+              <div class="bar3">
+                <div class="d-flex justify-content-end">
+                  <button class="btn addpromo">
+                    <img src="assets/add-outline.svg" alt="" /> Add Promo Code
+                  </button>
+                  <button class="btn btn-outline border-0 showflights">
+                    <img src="assets/Paper Plane.svg" alt="" /> Show Flights
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!--!main section-->
+    <main>
+      <section class="">
+        <div class="container-fluid d-flex flex-column">
+          <!--! plan for perfect trip-->
+          <div class="plan">
+            <div
+              class="d-flex justify-content-between align-items-center titlebanner"
+            >
+              <div class="">
+                <p class="plantitle">Plan your perfect trip</p>
+                <p class="plansmallparag">
+                  Search Flights & Places Hire to our most popular destinations
+                </p>
+              </div>
+              <button class="btn btn-fill btn-outline-primary seemorebutton">
+                See more places
+              </button>
+            </div>
+
+            <div class="container">
+              <div class="row d-flex justify-content-between">
+                <div
+                  class="col-md-4 col-sm-12 d-flex justify-content-around align-items-center"
+                >
+                  <img src="assets/Rectangle 3.png" alt="Istanbul" />
+
+                  <div class="plantext">
+                    <p class="Cityname">Istanbul</p>
+                    <p class="fhr">Flights . Hotels . Resorts</p>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4 col-sm-12 d-flex justify-content-around align-items-center"
+                >
+                  <div class="">
+                    <img src="assets/Rectangle 4.png" alt="Istanbul" />
+                  </div>
+                  <div class="plantext">
+                    <p class="Cityname">Malé, Maldives</p>
+                    <p class="fhr">Flights . Hotels . Resorts</p>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4 col-sm-12 d-flex justify-content-around align-items-center"
+                >
+                  <div class="">
+                    <img src="assets/Rectangle 5.png" alt="Istanbul" />
+                  </div>
+                  <div class="plantext">
+                    <p class="Cityname">London, UK</p>
+                    <p class="fhr">Flights . Hotels . Resorts</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-between">
+                <div
+                  class="col-md-4 col-sm-12 d-flex justify-content-around align-items-center"
+                >
+                  <div class="">
+                    <img src="assets/Rectangle 6.png" alt="Istanbul" />
+                  </div>
+                  <div class="plantext">
+                    <p class="Cityname">Sydney, Australia</p>
+                    <p class="fhr">Flights . Hotels . Resorts</p>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4 col-sm-12 d-flex justify-content-around align-items-center"
+                >
+                  <div class="">
+                    <img src="assets/Rectangle 7.png" alt="Istanbul" />
+                  </div>
+                  <div class="plantext">
+                    <p class="Cityname">Paris, France</p>
+                    <p class="fhr">Flights . Hotels . Resorts</p>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4 col-sm-12 d-flex justify-content-around align-items-center"
+                >
+                  <div class="">
+                    <img src="assets/Rectangle 8.png" alt="Istanbul" />
+                  </div>
+                  <div class="plantext">
+                    <p class="Cityname">Tokyo, Japan</p>
+                    <p class="fhr">Flights . Hotels . Resorts</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row d-flex justify-content-between">
+                <div
+                  class="col-md-4 col-sm-12 d-flex justify-content-around align-items-center"
+                >
+                  <div class="">
+                    <img src="assets/Rectangle 9.png" alt="Istanbul" />
+                  </div>
+                  <div class="plantext">
+                    <p class="Cityname">Baku, Azerbaijan</p>
+                    <p class="fhr">Flights . Hotels . Resorts</p>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4 col-sm-12 mt-md-0 d-flex justify-content-around align-items-center"
+                >
+                  <div class="">
+                    <img src="assets/Rectangle 10.png" alt="Istanbul" />
+                  </div>
+                  <div class="plantext">
+                    <p class="Cityname">New York, US</p>
+                    <p class="fhr">Flights . Hotels . Resorts</p>
+                  </div>
+                </div>
+                <div
+                  class="col-md-4 col-sm-12 d-flex justify-content-around align-items-center"
+                >
+                  <div class="">
+                    <img src="assets/Rectangle 11.png" alt="Istanbul" />
+                  </div>
+                  <div class="plantext">
+                    <p class="Cityname">Dubai, UAE</p>
+                    <p class="fhr">Flights . Hotels . Resorts</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="d-flex conImages justify-content-between">
+              <div class="imgparent position-relative">
+                <img
+                  src="assets/Rectangle 40.png"
+                  class="img-fluid"
+                  alt="Flights"
+                />
+                <div
+                  class="position-absolute absdiv d-flex flex-column justify-content-between align-items-center"
+                >
+                  <div class="texts">
+                    <p class="ftitle">Flights</p>
+                    <p class="ftext">
+                      Search Flights & Places Hire to our most popular
+                      destinations
+                    </p>
+                  </div>
+                  <button class="btn btn-outline border-0 showflights">
+                    <img src="assets/Paper Plane.svg" alt="" />
+                    Show Flights
+                  </button>
+                </div>
+              </div>
+              <div class="imgparent position-relative">
+                <img
+                  src="assets/Rectangle 41.png"
+                  class="img-fluid"
+                  alt="Stays"
+                />
+                <div
+                  class="position-absolute absdiv d-flex flex-column justify-content-between align-items-center"
+                >
+                  <div class="texts">
+                    <p class="ftitle">Hotels</p>
+                    <p class="ftext">
+                      Search hotels & Places Hire to our most popular
+                      destinations
+                    </p>
+                  </div>
+
+                  <button class="btn btn-outline border-0 showflights">
+                    <img src="assets/Paper Plane.svg" alt="" />
+                    Show Hotels
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--!footer-->
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,212 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"); */
+* {
+  /* font-family: "Montserrat";
+  font-style: normal; */
+}
+
+header {
+  color: #ffffff;
+  margin: 30px;
+  background-image: url("/assets/Rectangle31.png");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.navone {
+  margin-bottom: 54px;
+}
+
+.headerdiv {
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  border-radius: 24px 24px 24px 24px;
+  /* transform: rotate(180deg); */
+  /* position: relative; */
+}
+.title {
+  margin-bottom: 150px;
+}
+.title div.p {
+  font-family: "TradeGothic LT Extended";
+  text-transform: uppercase;
+}
+
+.text1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.text2 {
+  font-size: 80px;
+  font-weight: 700;
+}
+.text3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* .whitebar {
+  max-width: 89.275%;
+} */
+.barcon {
+  padding: 16px 32px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(141, 211, 187, 0.15);
+  border-radius: 16px;
+  padding: 16px 32px 32px;
+  gap: 32px;
+  isolation: isolate;
+}
+
+.vl {
+  border: 1px solid #d7e2ee;
+  transform: rotate(90deg);
+  width: 48px;
+  height: 0px;
+}
+.bar1 {
+  color: #112211;
+}
+
+label {
+  color: black;
+}
+
+.bar2 div input {
+  width: 20.25em;
+  height: 3.5em;
+}
+
+.showflights {
+  background-color: #8dd3bb;
+}
+
+p.plantitle {
+  font-size: 32px;
+  line-height: 39px;
+  font-weight: 600;
+  color: #000000;
+}
+
+p.plansmallparag {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #112211;
+  opacity: 0.75;
+}
+
+main {
+  margin: 30px;
+}
+
+.plan .container .row .col-md-4 {
+  background: #ffffff;
+  /* Cards Shadow */
+  width: 24.33em;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 16px;
+}
+
+.plan .container .row {
+  margin-top: 32px;
+}
+
+.Cityname {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* Blackish Green */
+
+  color: #112211;
+
+  opacity: 0.7;
+}
+
+.fhr {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Blackish Green */
+
+  color: #112211;
+}
+
+.seemorebutton {
+  width: 149px;
+  height: 40px;
+}
+
+.plan .titlebanner {
+  margin-right: 74px;
+  margin-left: 74px;
+}
+.conImages {
+  margin-top: 80px;
+}
+
+.imgparent {
+}
+
+.absdiv {
+  /* left: 305px; */
+  /* top: 0px; */
+  width: 100%;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(18, 18, 18, 0.75) 48.67%
+  );
+  border-radius: 0px 0px 24px 24px;
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.absdiv .showflights {
+  align-items: center;
+  padding: 8px 16px;
+  gap: 4px;
+  font-size: 14px;
+  width: 144px;
+  height: 48px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.absdiv .texts {
+  margin-bottom: 24px;
+}
+.absdiv .texts .ftitle {
+  font-family: "TradeGothic LT Extended";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Neutrals */
+
+  color: #ffffff;
+}
+
+.absdiv .texts .ftext {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+
+  /* Neutrals */
+
+  color: #ffffff;
+}
