@@ -91,11 +91,11 @@ label {
   max-width: 20.25rem;
 } */
 
-.fromfield,
+/* .fromfield,
 .datefield,
 .textfield {
   max-width: 20.25rem;
-}
+} */
 
 .showflights {
   background-color: #8dd3bb;
@@ -213,11 +213,8 @@ main {
   font-weight: 700;
   font-size: 40px;
   line-height: 51px;
-  /* identical to box height */
 
   text-align: center;
-
-  /* Neutrals */
 
   color: #ffffff;
 }
