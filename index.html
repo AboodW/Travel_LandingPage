@@ -20,106 +20,99 @@
   <body>
     <!-- !header -->
     <!--todo make it responsive and solve image background proplem-->
-    <header>
-      <section>
-        <div class="container-fluid headerdiv my-4">
-          <div class="mx-auto d-flex justify-content-between p-4 navone">
-            <div class="d-flex justify-content-between smallimages">
-              <div class="pe-3">
-                <img src="assets/airplane.svg" alt="airplane" /> Find Flight
-              </div>
-              <div class="ps-3">
-                <img src="assets/ion_bed.svg" alt="airplane" /> Fing Stays
-              </div>
+    <header class="position-relative">
+      <div class="container-fluid headerdiv my-4">
+        <div class="mx-auto d-flex justify-content-between p-4 navone">
+          <div class="d-flex justify-content-between smallimages">
+            <div class="pe-3">
+              <img src="assets/airplane.svg" alt="airplane" /> Find Flight
             </div>
-
-            <div class="">
-              <img src="assets/Logo.png" alt="logo" />
-            </div>
-
-            <div>
-              <div class="">
-                <button class="btn border-0 btn-outline text-white">
-                  Login
-                </button>
-
-                <button class="btn bg-white signup">Sign Up</button>
-              </div>
+            <div class="ps-3">
+              <img src="assets/ion_bed.svg" alt="airplane" /> Fing Stays
             </div>
           </div>
-          <div class="title d-flex flex-column align-items-center p-0">
-            <div class="">
-              <p class="text1">Helping Others</p>
+
+          <div class="mainlogo">
+            <img src="assets/Logo.png" alt="logo" />
+          </div>
+
+          <div class="signbuttons">
+            <button class="btn border-0 btn-outline text-white">Login</button>
+
+            <button class="btn bg-white signup">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="title d-flex flex-column align-items-center p-0 headertexts lh-1"
+      >
+        <p class="text1">Helping Others</p>
+
+        <p class="text2">Live & Travel</p>
+
+        <p class="text3">Special offers to suit your plan</p>
+      </div>
+
+      <div class="whitebar d-flex justify-content-center">
+        <div class="container-fluid barcon d-flex flex-column">
+          <div class="bar1 d-flex align-items-center">
+            <img src="assets/airplane2.svg" alt="airplane" /> Flights
+            <div class="vl"></div>
+            <img src="assets/ion_bed2.svg" alt="" /> Stays
+          </div>
+
+          <div class="bar2 row align-items-center justify-content-between">
+            <div class="col-3 form-floating">
+              <input
+                type="text"
+                class="form-control fromfield"
+                id="floatingInputGroup1"
+                placeholder="Username"
+              />
+              <label for="floatingInputGroup1">From - To</label>
             </div>
-            <div class="">
-              <p class="text2">Live & Travel</p>
+            <div class="col-2 form-floating">
+              <select class="form-select" id="floatingSelectGrid">
+                <option selected>Return</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <label for="floatingSelectGrid">Trip</label>
             </div>
-            <div class="">
-              <p class="text3">Special offers to suit your plan</p>
+            <div class="col-3 form-floating">
+              <input
+                type="date"
+                class="form-control datefield"
+                id="floatingInputGroup1"
+                placeholder="Username"
+              />
+              <label for="floatingInputGroup1">Depart - Return</label>
+            </div>
+            <div class="col-3 form-floating">
+              <input
+                type="text"
+                class="form-control textfield"
+                id="floatingInputGroup1"
+                placeholder="Username"
+              />
+              <label for="floatingInputGroup1">Passenger - Class</label>
             </div>
           </div>
-          <div class="whitebar position-relative">
-            <div class="container-fluid barcon d-flex flex-column">
-              <div class="bar1 d-flex align-items-center">
-                <img src="assets/airplane2.svg" alt="airplane" /> Flights
-                <div class="vl"></div>
-                <img src="assets/ion_bed2.svg" alt="" /> Stays
-              </div>
-
-              <div
-                class="bar2 d-flex align-items-center justify-content-between"
-              >
-                <div class="form-floating">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="floatingInputGroup1"
-                    placeholder="Username"
-                  />
-                  <label for="floatingInputGroup1">From - To</label>
-                </div>
-                <div class="form-floating">
-                  <select class="form-select" id="floatingSelectGrid">
-                    <option selected>Return</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                  <label for="floatingSelectGrid">Trip</label>
-                </div>
-                <div class="form-floating">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="floatingInputGroup1"
-                    placeholder="Username"
-                  />
-                  <label for="floatingInputGroup1">Depart - Return</label>
-                </div>
-                <div class="form-floating">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="floatingInputGroup1"
-                    placeholder="Username"
-                  />
-                  <label for="floatingInputGroup1">Passenger - Class</label>
-                </div>
-              </div>
-              <div class="bar3">
-                <div class="d-flex justify-content-end">
-                  <button class="btn addpromo">
-                    <img src="assets/add-outline.svg" alt="" /> Add Promo Code
-                  </button>
-                  <button class="btn btn-outline border-0 showflights">
-                    <img src="assets/Paper Plane.svg" alt="" /> Show Flights
-                  </button>
-                </div>
-              </div>
+          <div class="bar3">
+            <div
+              class="d-flex justify-content-lg-end justify-content-sm-center justify-content-md-center"
+            >
+              <button class="btn addpromo">
+                <img src="assets/add-outline.svg" alt="" /> Add Promo Code
+              </button>
+              <button class="btn btn-outline border-0 showflights">
+                <img src="assets/Paper Plane.svg" alt="" /> Show Flights
+              </button>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </header>
 
     <!--!main section-->
@@ -250,51 +243,177 @@
             </div>
           </div>
           <div class="container">
-            <div class="d-flex conImages justify-content-between">
-              <div class="imgparent position-relative">
-                <img
-                  src="assets/Rectangle 40.png"
-                  class="img-fluid"
-                  alt="Flights"
-                />
-                <div
-                  class="position-absolute absdiv d-flex flex-column justify-content-between align-items-center"
-                >
-                  <div class="texts">
-                    <p class="ftitle">Flights</p>
-                    <p class="ftext">
-                      Search Flights & Places Hire to our most popular
-                      destinations
-                    </p>
-                  </div>
+            <div class="row conImages justify-content-between">
+              <div
+                class="car1 col-6 absdiv d-flex flex-column justify-content-between align-items-center"
+              >
+                <div class="texts">
+                  <p class="ftitle">Flights</p>
+                  <p class="ftext">
+                    Search Flights & Places Hire to our most popular
+                    destinations
+                  </p>
+                </div>
+                <button class="btn btn-outline border-0 showflights">
+                  <img src="assets/Paper Plane.svg" alt="" />
+                  Show Flights
+                </button>
+              </div>
+
+              <div
+                class="car2 col-6 absdiv d-flex flex-column justify-content-between align-items-center"
+              >
+                <div class="texts">
+                  <p class="ftitle">Hotels</p>
+                  <p class="ftext">
+                    Search hotels & Places Hire to our most popular destinations
+                  </p>
                   <button class="btn btn-outline border-0 showflights">
                     <img src="assets/Paper Plane.svg" alt="" />
                     Show Flights
                   </button>
-                </div>
-              </div>
-              <div class="imgparent position-relative">
-                <img
-                  src="assets/Rectangle 41.png"
-                  class="img-fluid"
-                  alt="Stays"
-                />
-                <div
-                  class="position-absolute absdiv d-flex flex-column justify-content-between align-items-center"
-                >
-                  <div class="texts">
-                    <p class="ftitle">Hotels</p>
-                    <p class="ftext">
-                      Search hotels & Places Hire to our most popular
-                      destinations
-                    </p>
-                  </div>
-
-                  <button class="btn btn-outline border-0 showflights">
+                  <!-- <button class="btn btn-outline border-0 showflights">
                     <img src="assets/Paper Plane.svg" alt="" />
                     Show Hotels
-                  </button>
+                  </button> -->
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid">
+        <div class="container-fluid Reviews">
+          <div class="rev">
+            <div
+              class="d-flex justify-content-between align-items-center titlebanner"
+            >
+              <div class="">
+                <p class="plantitle">Reviews</p>
+                <p class="plansmallparag">
+                  What people says about Golobe facilities
+                </p>
+              </div>
+              <button class="btn btn-fill btn-outline-primary seemorebutton">
+                See All
+              </button>
+            </div>
+          </div>
+          <div
+            class="cardContainer row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4 justify-content-around"
+          >
+            <div class="c1">
+              <div class="card" style="">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    “A real sense of community, nurtured”
+                  </h5>
+                  <div class="">
+                    <p class="card-text mb-2 text-muted text-black-50">
+                      Really appreciate the help and support from the staff
+                      during these tough times. Shoutout...
+                    </p>
+                  </div>
+                  <div class="">
+                    <div>
+                      <img src="./assets/Frame 2608758.svg" alt="" />
+                    </div>
+
+                    <div>
+                      <p class="fw-bold m-0 mt-3">Olga</p>
+                      <p class="pcard text-black-50">Weave Studios – Kai Tak</p>
+                    </div>
+
+                    <a
+                      href="#"
+                      class="card-link text-decoration-none text-black-50"
+                    >
+                      <img src="./assets/flat-color-icons_google.svg" alt="" />
+                      Google</a
+                    >
+                  </div>
+                </div>
+                <img
+                  src="./assets/Rectangle 36.png"
+                  class="card-img-bottom"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="c2">
+              <div class="card" style="">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    “The facilities are superb. Clean, slick, bright.”
+                  </h5>
+                  <div class="">
+                    <p class="card-text mb-2 text-muted">
+                      “A real sense of community, nurtured”Really appreciate the
+                      help and support from the staff...
+                    </p>
+                  </div>
+                  <div class="">
+                    <div>
+                      <img src="./assets/Frame 2608758.svg" alt="" />
+                    </div>
+
+                    <div>
+                      <p class="fw-bold m-0 mt-3">Thomas</p>
+                      <p class="pcard text-black-50">Weave Studios – Kai Tak</p>
+                    </div>
+
+                    <a
+                      href="#"
+                      class="card-link text-decoration-none text-black-50"
+                    >
+                      <img src="./assets/flat-color-icons_google.svg" alt="" />
+                      Google</a
+                    >
+                  </div>
+                </div>
+                <img
+                  src="./assets/Rectangle 37.png"
+                  class="card-img-bottom"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="c3">
+              <div class="card" style="">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    “A real sense of community, nurtured”
+                  </h5>
+                  <div class="">
+                    <p class="card-text mb-2 text-muted">
+                      Really appreciate the help and support from the staff
+                      during these tough times. Shoutout...
+                    </p>
+                  </div>
+                  <div class="">
+                    <div>
+                      <img src="./assets/Frame 2608758.svg" alt="" />
+                    </div>
+
+                    <div>
+                      <p class="fw-bold m-0 mt-3">Eliot</p>
+                      <p class="pcard text-black-50">Weave Studios – Kai Tak</p>
+                    </div>
+
+                    <a
+                      href="#"
+                      class="card-link text-decoration-none text-black-50"
+                    >
+                      <img src="./assets/flat-color-icons_google.svg" alt="" />
+                      Google</a
+                    >
+                  </div>
+                </div>
+                <img
+                  src="./assets/Rectangle 38.png"
+                  class="card-img-bottom"
+                  alt="..."
+                />
               </div>
             </div>
           </div>
@@ -303,6 +422,104 @@
     </main>
 
     <!--!footer-->
-    <footer></footer>
+    <footer>
+      <div
+        class="container-fluid d-flex justify-content-center position-relative p-0"
+      >
+        <div class="container-fluid firstbar d-flex justify-content-between">
+          <div class="content d-flex flex-column justify-content-between">
+            <p class="bigtitle">Subscribe <br />Newsletter</p>
+
+            <div class="subtext">
+              <p class="subtext_title">The Travel</p>
+              <p class="subtext_content">
+                Get inspired! Receive travel discounts, tips and behind the
+                scenes stories.
+              </p>
+            </div>
+            <div class="d-flex justify-content-between footerinput">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Email Address"
+              />
+              <button class="btn btn-fill" type="button" id="button-addon2">
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="bgimg">
+            <img
+              src="./assets/emojione-v1_open-mailbox-with-lowered-flag.svg"
+              alt="mail"
+            />
+          </div>
+        </div>
+        <div class="container-fluid secondbar row justify-content-center">
+          <div class="footerlogo col-4 d-flex flex-column">
+            <div class=""><img src="./assets/Logodark.svg" alt="logo" /></div>
+            <div class="d-flex justify-content-between">
+              <img
+                src="./assets/akar-icons_facebook-fill.svg"
+                alt="facebooklogo"
+              />
+              <img
+                src="./assets/akar-icons_twitter-fill.svg"
+                alt="twitterlogo"
+              />
+              <img
+                src="./assets/akar-icons_youtube-fill.svg"
+                alt="youtubelogo"
+              />
+              <img
+                src="./assets/ant-design_instagram-filled.svg"
+                alt="instagramlogo"
+              />
+            </div>
+          </div>
+          <div class="contacts_information col-8 row">
+            <div
+              class="co1 col-3 d-flex flex-column justify-content-between align-items-center"
+            >
+              <h6>Our Destinations</h6>
+              <p class="text-black-50">Canada</p>
+              <p class="text-black-50">Canada</p>
+              <p class="text-black-50">Canada</p>
+              <p class="text-black-50">Canada</p>
+            </div>
+            <div
+              class="co2 col-3 d-flex flex-column justify-content-between align-items-center"
+            >
+              <h6>Our Activities</h6>
+              <p class="text-black-50">Northern Lights</p>
+              <p class="text-black-50">Northern Lights</p>
+              <p class="text-black-50">Northern Lights</p>
+              <p class="text-black-50">Northern Lights</p>
+            </div>
+            <div
+              class="co3 col-2 d-flex flex-column justify-content-between align-items-center"
+            >
+              <h6>Travel Blogs</h6>
+              <p class="text-black-50">Bali Travel Guide</p>
+              <p class="text-black-50">Bali Travel Guide</p>
+              <p class="text-black-50">Bali Travel Guide</p>
+              <p class="text-black-50">Bali Travel Guide</p>
+            </div>
+            <div class="co4 col-2 d-flex flex-column align-items-center">
+              <h6>About Us</h6>
+              <p class="text-black-50">Our Story</p>
+              <p class="text-black-50">Work with us</p>
+            </div>
+            <div class="co5 col-2 d-flex flex-column align-items-center">
+              <h6>Contact Us</h6>
+              <p class="text-black-50">Our Story</p>
+              <p class="text-black-50">Work with us</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="bootstrap.bundle.min.js"></script>
   </body>
 </html>
