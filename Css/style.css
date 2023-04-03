@@ -205,15 +205,27 @@ main {
 
 .card {
   padding: 24px;
-  width: 26.5625rem;
+  /* width: 26.5625rem; */
   border-radius: 20px;
   box-shadow: 26px 23px 0px -3px rgba(141, 211, 187, 0.4);
 }
+
+.card-title {
+  text-overflow: ellipsis;
+  white-space: 2;
+  overflow: hidden;
+}
 .card-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: 2;
   font-family: "Montserrat Regular", sans-serif;
 }
 
 .pcard {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: 2;
   font-family: "Montserrat Regular", sans-serif;
 }
 
