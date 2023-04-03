@@ -14,9 +14,7 @@
     url("../assets/webfonts/Montserrat\ Regular.ttf") format("woff"),
     url("../assets/webfonts/Montserrat\ Regular.ttf") format("truetype");
 }
-/* body {
-  margin: 30px;
-} */
+
 /*  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));*/
 
 .title div.p {
@@ -42,24 +40,21 @@ header {
 }
 
 .text1 {
-  font-size: 45px;
+  font-size: 2.8125rem;
   font-weight: 700;
   font-family: "TradeGothic LT Extended", sans-serif;
 }
 .text2 {
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 700;
   font-family: "TradeGothic LT Extended", sans-serif;
 }
 .text3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   font-family: "TradeGothic LT Extended", sans-serif;
 }
 
-/* .whitebar {
-  max-width: 89.275%;
-} */
 .barcon {
   position: absolute;
   width: 90%;
@@ -87,22 +82,13 @@ label {
   color: black;
 }
 
-/* .bar2 div {
-  max-width: 20.25rem;
-} */
-
-/* .fromfield,
-.datefield,
-.textfield {
-  max-width: 20.25rem;
-} */
-
 .showflights {
   background-color: #8dd3bb;
 }
 
 p.plantitle {
-  font-size: 32px;
+  font-family: "Montserrat Regular", sans-serif;
+  font-size: 2rem;
   line-height: 39px;
   font-weight: 600;
   color: #000000;
@@ -110,10 +96,14 @@ p.plantitle {
 
 p.plansmallparag {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 20px;
   color: #112211;
   opacity: 0.75;
+  font-family: "Montserrat Regular", sans-serif;
+}
+.seemorebutton {
+  font-family: "Montserrat Regular", sans-serif;
 }
 
 main {
@@ -122,50 +112,33 @@ main {
   margin-right: 30px;
 }
 
-.plan .container .row .col-md-4 {
-  background: #ffffff;
-  /* Cards Shadow */
-  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
-  border-radius: 16px;
-}
-
 .plan .container .row {
   margin-top: 32px;
+}
+
+.shadowplanimages {
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+  border-radius: 16px;
 }
 
 .Cityname {
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  /* identical to box height */
-
-  /* Blackish Green */
-
   color: #112211;
-
   opacity: 0.7;
+  font-family: "Montserrat Regular", sans-serif;
 }
 
 .fhr {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
-
-  /* Blackish Green */
-
   color: #112211;
+  font-family: "Montserrat Regular", sans-serif;
 }
 
-.seemorebutton {
-  width: 149px;
-  height: 40px;
-}
-
-.plan .titlebanner {
-  margin-right: 74px;
-  margin-left: 74px;
-}
 .conImages {
   margin-top: 80px;
 }
@@ -174,8 +147,6 @@ main {
 }
 
 .car1 {
-  /* position: absolute; */
-
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
     url("../assets/Rectangle 40.png");
   background-repeat: no-repeat;
@@ -213,9 +184,7 @@ main {
   font-weight: 700;
   font-size: 40px;
   line-height: 51px;
-
   text-align: center;
-
   color: #ffffff;
 }
 
@@ -226,9 +195,6 @@ main {
   font-size: 16px;
   line-height: 20px;
   text-align: center;
-
-  /* Neutrals */
-
   color: #ffffff;
 }
 
@@ -251,11 +217,6 @@ main {
   font-family: "Montserrat Regular", sans-serif;
 }
 
-/* .rev .titlebanner {
-  margin-right: 74px;
-  margin-left: 74px;
-} */
-
 footer {
   margin-top: 20rem;
 }
@@ -264,7 +225,6 @@ footer {
   background: #8dd3bb;
   padding-top: 13.625rem;
   padding-bottom: 4rem;
-  /* box-sizing: border-box; */
 }
 
 .footerlogo {
@@ -273,9 +233,7 @@ footer {
 
 .firstbar {
   background: #cdeae1;
-  /* Cards Shadow */
   width: 80%;
-
   box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
   border-radius: 20px;
   padding: 0px 24px;
@@ -295,10 +253,6 @@ footer {
   font-weight: 700;
   font-size: 44px;
   line-height: 54px;
-  /* or 123% */
-
-  /* Blackish Green */
-
   color: #112211;
 }
 
@@ -306,11 +260,7 @@ footer {
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
-
-  /* Blackish Green */
-
   color: #112211;
-
   opacity: 0.8;
 }
 
@@ -319,12 +269,7 @@ footer {
   font-size: 16px;
   line-height: 20px;
   font-family: "Montserrat Regular";
-  /* identical to box height */
-
-  /* Blackish Green */
-
   color: #112211;
-
   opacity: 0.7;
   max-width: 37.0625rem;
 }
@@ -360,14 +305,23 @@ footer {
   }
   .navone .mainlogo {
   }
-  header {
+  /* header {
     background-position: 69%;
-  }
+  } */
   .bgimg {
     display: none;
   }
   .secondbar {
     grid-template-columns: 1;
+  }
+  .firstbar {
+    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
+    border-radius: 20px;
+    position: static;
+    top: 0;
+    padding: 16px 32px;
+    gap: 32px;
+    isolation: isolate;
   }
 }
 
@@ -375,11 +329,78 @@ footer {
   .bar2 {
     flex-direction: column;
   }
-  .bar2 div {
+  /* .bar2 div {
     width: 50%;
     margin-bottom: 5px;
-  }
+  } */
   .bar3buttons {
     justify-content: center;
+  }
+}
+
+@media only screen and ((min-width: 767px) and (max-width: 991px)) {
+  .barcon {
+    bottom: -40%;
+  }
+  main {
+    margin-top: 21.4375rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    padding-bottom: 10rem;
+  }
+  p.plantitle {
+    font-size: 1.5rem;
+  }
+  p.plansmallparag {
+    font-size: 0.7rem;
+  }
+  .barcon {
+    bottom: -70%;
+  }
+
+  /* .seemorebutton {
+    font-size: 0.6rem;
+    width: 7rem;
+    height: 2rem;
+  } */
+
+  .text1 {
+    font-size: 2rem;
+  }
+
+  .text2 {
+    font-size: 3.5rem;
+  }
+
+  .text3 {
+    font-size: 1rem;
+  }
+
+  main {
+    margin-top: 24.4375rem;
+  }
+}
+
+/* Medium screens */
+
+@media (max-width: 500px) {
+  .barcon {
+    bottom: -80%;
+  }
+  .titlebanner {
+    flex-direction: column;
+  }
+
+  .text1 {
+    font-size: 1.5rem;
+  }
+  .text2 {
+    font-size: 2rem;
+  }
+  .text3 {
+    font-size: 1rem;
   }
 }
