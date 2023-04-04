@@ -61,41 +61,55 @@
           </div>
 
           <div class="bar2 row align-items-center justify-content-between">
-            <div class="col-lg-3 form-floating px-1 my-1">
-              <input
-                type="text"
-                class="form-control fromfield"
-                id="floatingInputGroup1"
-                placeholder="Username"
-              />
-              <label for="floatingInputGroup1">From - To</label>
+            <div class="col-lg-3 form-floating px-1 my-2">
+              <div class="input-wrapper">
+                <label class="l-title" for="pos">From - To</label>
+                <input
+                  class="l-input"
+                  type="pos"
+                  placeholder="Lahore - Karashi"
+                />
+                <img
+                  class="l-icon"
+                  src="./assets/ion_swap-horizontal.svg"
+                  alt="arrows"
+                />
+              </div>
             </div>
-            <div class="col-lg-3 form-floating px-1 my-1">
-              <select class="form-select" id="floatingSelectGrid">
-                <option selected="">Return</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-              <label for="floatingSelectGrid">Trip</label>
+            <div class="col-lg-3 form-floating px-1 my-2">
+              <div class="input-wrapper">
+                <label class="l-title" for="trip">Trip</label>
+                <select class="l-input" name="trip" id="trip">
+                  <option value="return">Return</option>
+                </select>
+                <img
+                  class="l-icon"
+                  src="./assets/chevron_down.svg"
+                  alt="chevron"
+                />
+              </div>
             </div>
-            <div class="col-lg-3 form-floating px-1 my-1">
-              <input
-                type="date"
-                class="form-control datefield"
-                id="floatingInputGroup1"
-                placeholder="Username"
-              />
-              <label for="floatingInputGroup1">Depart - Return</label>
+            <div class="col-lg-3 form-floating px-1 my-2">
+              <div class="input-wrapper">
+                <label class="l-title" for="date">Depart - Return</label>
+                <input
+                  class="l-input"
+                  id="date"
+                  type="date"
+                  placeholder="07 Nov 22 - 13 Nov 22"
+                />
+              </div>
             </div>
-            <div class="col-lg-3 form-floating px-1 my-1">
-              <input
-                type="text"
-                class="form-control textfield"
-                id="floatingInputGroup1"
-                placeholder="Username"
-              />
-              <label for="floatingInputGroup1">Passenger - Class</label>
+            <div class="col-lg-3 form-floating px-1 my-2">
+              <div class="input-wrapper">
+                <label class="l-title" for="passenger">Passenger - Class</label>
+                <input
+                  class="l-input"
+                  id="passenger"
+                  type="text"
+                  placeholder="1 Passenger, Economy"
+                />
+              </div>
             </div>
           </div>
           <div class="bar3">

@@ -15,6 +15,43 @@
     url("../assets/webfonts/Montserrat\ Regular.ttf") format("truetype");
 }
 
+.input-wrapper {
+  position: relative;
+}
+.l-input {
+  border: 1px solid gray;
+  border-radius: 6px;
+  position: relative;
+  width: 100%;
+  line-height: 6ex;
+  padding: 5px 10px;
+  font-family: "Montserrat Regular", sans-serif;
+}
+select.l-input {
+  /* height: 71.8px; */
+  -webkit-appearance: none; /* for Safari/Chrome */
+  -moz-appearance: none; /* for Firefox */
+  appearance: none;
+}
+.l-title {
+  position: absolute;
+  top: -1.8ex;
+  z-index: 1;
+  left: 2em;
+  background-color: white;
+  font-weight: 700;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #112211;
+  font-family: "Montserrat Regular", sans-serif;
+}
+.l-icon {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+}
+
 /*  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));*/
 
 .title div.p {
@@ -81,9 +118,9 @@ header {
   color: #112211;
 }
 
-label {
+/* label {
   color: black;
-}
+} */
 
 .showflights {
   background-color: #8dd3bb;
@@ -377,8 +414,14 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
+  .l-title {
+    font-size: 12px;
+  }
+  .panSec {
+    margin-top: 20rem;
+  }
   header {
-    padding-bottom: 3rem;
+    padding-bottom: 10rem;
   }
   p.plantitle {
     font-size: 1.5rem;
@@ -415,10 +458,10 @@ footer {
     padding-bottom: 10rem;
   }
   .panSec {
-    margin-top: 22rem;
+    margin-top: 26rem;
   }
   .barcon {
-    bottom: -80%;
+    bottom: -95%;
     border-radius: 0;
     width: 100%;
   }
@@ -461,5 +504,8 @@ footer {
   }
   footer {
     margin-top: 3rem;
+  }
+  .input-wrapper {
+    margin-bottom: 15px;
   }
 }
