@@ -218,9 +218,8 @@ img.card-img-bottom {
 }
 
 .card {
-  padding: 24px;
   border-radius: 20px;
-  /* box-shadow: 26px 23px 0px -3px rgba(141, 211, 187, 0.4); */
+  box-shadow: 26px 23px 0px -3px rgba(141, 211, 187, 0.4);
 }
 
 .cardshadow {
