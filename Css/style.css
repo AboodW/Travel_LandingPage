@@ -153,7 +153,7 @@ main {
   background-size: cover;
   background-position: center;
   border-radius: 24px;
-  padding-top: 17.4375rem;
+  padding-top: 23rem;
 }
 .car2 {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
@@ -162,7 +162,10 @@ main {
   background-size: cover;
   background-position: center;
   border-radius: 24px;
-  padding-top: 17.4375rem;
+  padding-top: 23rem;
+}
+.infobanner {
+  max-width: 24.313rem;
 }
 /* .absdiv .texts {
   align-items: center;
@@ -203,14 +206,21 @@ main {
   font-family: "TradeGothic LT Extended", sans-serif;
 }
 
-.card {
+div.card {
+  border-radius: 20px;
+}
+
+img.card-img-bottom {
+  margin-top: 40px;
+}
+
+.cardshadow {
   padding: 24px;
-  /* width: 26.5625rem; */
   border-radius: 20px;
   box-shadow: 26px 23px 0px -3px rgba(141, 211, 187, 0.4);
 }
 
-.card-title {
+/* .card-title {
   text-overflow: ellipsis;
   white-space: 2;
   overflow: hidden;
@@ -220,7 +230,7 @@ main {
   overflow: hidden;
   white-space: 2;
   font-family: "Montserrat Regular", sans-serif;
-}
+} */
 
 .pcard {
   text-overflow: ellipsis;
@@ -373,12 +383,6 @@ footer {
     bottom: -70%;
   }
 
-  /* .seemorebutton {
-    font-size: 0.6rem;
-    width: 7rem;
-    height: 2rem;
-  } */
-
   .text1 {
     font-size: 2rem;
   }
@@ -399,6 +403,11 @@ footer {
 /* Medium screens */
 
 @media (max-width: 500px) {
+  .car1,
+  .car2 {
+    padding-top: 10rem;
+    margin: 0 0;
+  }
   .barcon {
     bottom: -80%;
   }
