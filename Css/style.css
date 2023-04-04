@@ -378,7 +378,7 @@ footer {
 
 @media only screen and (max-width: 767px) {
   header {
-    padding-bottom: 10rem;
+    padding-bottom: 3rem;
   }
   p.plantitle {
     font-size: 1.5rem;
