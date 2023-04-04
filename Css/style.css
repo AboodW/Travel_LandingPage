@@ -348,9 +348,9 @@ footer {
     left: auto;
   }
 }
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 991px) {
   .panSec {
-    margin-top: 13rem;
+    margin-top: 17rem;
   }
 }
 
@@ -373,9 +373,6 @@ footer {
 @media only screen and ((min-width: 767px) and (max-width: 991px)) {
   .barcon {
     bottom: -40%;
-  }
-  main {
-    margin-top: 21.4375rem;
   }
 }
 
