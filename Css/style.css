@@ -59,7 +59,6 @@ header {
   position: absolute;
   width: 90%;
   bottom: -20%;
-  padding: 16px 32px;
   background: #ffffff;
   box-shadow: 0px 4px 16px rgba(141, 211, 187, 0.4);
   border-radius: 16px;
@@ -260,9 +259,9 @@ footer {
   border-radius: 20px;
   padding: 0px 24px;
   position: absolute;
+  left: 10%;
   top: -40%;
-  padding: 16px 32px;
-  gap: 32px;
+  /* gap: 32px; */
   isolation: isolate;
 }
 
@@ -304,18 +303,14 @@ footer {
 }
 
 .footerinput {
-  max-width: inherit;
-  height: 3.5rem;
-}
-
-.footerinput input {
-  max-width: 29.5625rem;
+  max-height: 3.5rem;
 }
 
 #button-addon2 {
   background: #112211;
   border-radius: 4px;
   color: #fff;
+  height: 3.5rem;
 }
 
 #button-addon2:hover {
@@ -323,6 +318,12 @@ footer {
   border-radius: 4px;
   color: #112211;
   border: 1px solid #112211;
+}
+
+@media screen and (max-width: 1050px) {
+  .bgimg {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 875px) {
@@ -337,20 +338,19 @@ footer {
   /* header {
     background-position: 69%;
   } */
-  .bgimg {
-    display: none;
-  }
+
   .secondbar {
     grid-template-columns: 1;
   }
+  .footerinput {
+    flex-direction: column;
+  }
   .firstbar {
-    box-shadow: 0px 4px 16px rgba(17, 34, 17, 0.05);
     border-radius: 20px;
-    position: static;
-    top: 0;
-    padding: 16px 32px;
+    padding: 16px;
+    position: relative;
     gap: 32px;
-    isolation: isolate;
+    left: auto;
   }
 }
 
@@ -401,10 +401,6 @@ footer {
   .text3 {
     font-size: 1rem;
   }
-
-  main {
-    margin-top: 24.4375rem;
-  }
 }
 
 /* Medium screens */
@@ -416,7 +412,7 @@ footer {
     margin: 0 0;
   }
   .barcon {
-    bottom: -80%;
+    position: relative;
   }
   .titlebanner {
     flex-direction: column;
@@ -430,5 +426,32 @@ footer {
   }
   .text3 {
     font-size: 1rem;
+  }
+  .bigtitle {
+    font-size: 2rem;
+  }
+
+  .subtext_title {
+    font-size: 1rem;
+  }
+
+  .subtext_content {
+    font-size: 0.8rem;
+  }
+  .footerinput {
+    flex-direction: column;
+  }
+  .firstbar {
+    width: 100%;
+    margin-bottom: 1rem;
+    left: 0;
+    overflow: hidden;
+  }
+  .secondbar {
+    padding-top: 2rem;
+    overflow: hidden;
+  }
+  footer {
+    margin-top: 3rem;
   }
 }
