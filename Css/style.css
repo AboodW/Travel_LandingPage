@@ -40,7 +40,7 @@ header {
 }
 
 .panSec {
-  margin-top: 3rem;
+  margin-top: 11rem;
 }
 
 .text1 {
@@ -348,6 +348,11 @@ footer {
     left: auto;
   }
 }
+@media screen and (max-width: 912px) {
+  .panSec {
+    margin-top: 13rem;
+  }
+}
 
 @media screen and (max-width: 912px) {
   .bar2 {
@@ -359,6 +364,9 @@ footer {
   } */
   .bar3buttons {
     justify-content: center;
+  }
+  .panSec {
+    margin-top: 17rem;
   }
 }
 
