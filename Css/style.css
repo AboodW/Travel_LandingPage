@@ -295,6 +295,13 @@ footer {
   opacity: 0.7;
   max-width: 37.0625rem;
 }
+.co1,
+.co2,
+.co3,
+.co4,
+.co5 {
+  font-family: "Montserrat Regular", sans-serif;
+}
 
 .footerinput {
   max-width: inherit;
